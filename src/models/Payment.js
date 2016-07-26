@@ -5,7 +5,7 @@
  */
 
 import _ from 'lodash';
-const BALANCE = alaska.service('alaska-balance');
+import BALANCE from 'alaska-balance';
 
 export const fields = {
   currency: {

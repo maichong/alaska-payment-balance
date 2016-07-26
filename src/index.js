@@ -5,9 +5,8 @@
  */
 
 import _ from 'lodash';
-
-const BALANCE = alaska.service('alaska-balance');
-const USER = alaska.service('alaska-user');
+import BALANCE from 'alaska-balance';
+import USER from 'alaska-user';
 
 export default class BalancePlugin {
   constructor(service) {
